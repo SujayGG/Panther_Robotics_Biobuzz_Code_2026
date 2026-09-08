@@ -1,4 +1,4 @@
-# Panther Robotics — BioBuzz 2026
+# PESH Robotics — BioBuzz 2026
 
 FTC robot code for the **DECODE (2025–2026)** season.
 
