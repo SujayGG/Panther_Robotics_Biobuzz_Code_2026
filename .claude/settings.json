@@ -1,0 +1,19 @@
+{
+  "enabledMcpjsonServers": ["ftc"],
+  "permissions": {
+    "allow": [
+      "Bash(./gradlew:*)",
+      "Bash(gradle:*)",
+      "Bash(adb devices)",
+      "Bash(adb connect:*)",
+      "Bash(adb disconnect:*)",
+      "Bash(adb logcat:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "mcp__ftc__scan_project",
+      "mcp__ftc__search_knowledge",
+      "mcp__ftc__validate_ftc_code"
+    ]
+  }
+}

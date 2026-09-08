@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "ftc": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "ftc-mcp"]
+    }
+  }
+}

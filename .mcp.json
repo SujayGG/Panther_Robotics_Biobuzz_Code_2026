@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ftc": {
+      "command": "npx",
+      "args": ["-y", "ftc-mcp"]
+    }
+  }
+}
