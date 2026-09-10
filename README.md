@@ -131,7 +131,7 @@ Good ones to start from:
 
 1. Find the sample in the sidebar, right-click it → **Copy**.
 2. Right-click our `opmodes` folder → **Paste**.
-3. Android Studio asks for a new name. Give it a real one, like `PantherTeleOp`.
+3. Android Studio asks for a new name. Give it a real one, like `PeshTeleOp`.
 4. Open your new file. Two things to fix:
 
    **a. The package line** at the very top must match where the file now lives:
@@ -148,7 +148,7 @@ Good ones to start from:
 5. Change the name that shows on the tablet:
 
    ```java
-   @TeleOp(name = "Panther TeleOp", group = "Competition")
+   @TeleOp(name = "PESH TeleOp", group = "Competition")
    ```
 
 ### Motor names have to match the robot
