@@ -1,6 +1,6 @@
 # PESH Robotics — BioBuzz 2026
 
-FTC robot code for the DECODE (2025–2026) season. This repo is the FTC SDK
+FTC robot code for the BIOBUZZ (2026–2027) season. This repo is the FTC SDK
 project (`FtcRobotController` v11.2.1) plus our team module, `TeamCode`.
 
 ## Where our code goes

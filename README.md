@@ -1,6 +1,6 @@
 # PESH Robotics — BioBuzz 2026
 
-This is our team's robot code for the FTC **DECODE (2025–2026)** season.
+This is our team's robot code for the FTC **BIOBUZZ (2026–2027)** season.
 
 It's the official [FTC SDK](https://github.com/FIRST-Tech-Challenge/FtcRobotController)
 (version **11.2.1**) with a `TeamCode` folder where we write our own code. If
@@ -329,7 +329,26 @@ not finished, and a broken `main` blocks everyone at the next meeting.
 
 ---
 
-## 14. Where to learn more
+## 14. Keep going — the learning path
+
+Sections 1–13 get you driving. Everything after that — mecanum kinematics,
+field-centric drive, subsystems, odometry, and autonomous with Pedro Pathing 3
+— is laid out as a stage-by-stage route with exercises you fill in:
+
+**→ [docs/guides/README.md](docs/guides/README.md)**
+
+| Guide | Covers |
+|---|---|
+| [Guide 1](docs/guides/01-teleop-mecanum.md) | TeleOp, motors, gamepads, mecanum maths, IMU, subsystems |
+| [Guide 2](docs/guides/02-odometry-pedro-pathing.md) | Odometry, Pedro Pathing 3, tuning, autonomous |
+
+The exercises live in `TeamCode/src/main/java/org/firstinspires/ftc/teamcode/exercises/`
+and appear on the Driver Station under the group **Exercises**. They compile and
+deploy as-is; you fill in the blanks.
+
+---
+
+## 15. Where to learn more
 
 - [Official FTC Programming Docs](https://ftc-docs.firstinspires.org/) — start here
 - [Android Studio Tutorial (FIRST)](https://ftc-docs.firstinspires.org/programming_resources/android_studio_java/Android-Studio-Tutorial.html)
