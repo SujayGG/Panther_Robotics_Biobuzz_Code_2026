@@ -71,6 +71,32 @@ work.
 
 They appear on the Driver Station under the group **Exercises**.
 
+## Competition drivetrain — already built
+
+`TeamCode/src/main/java/org/firstinspires/ftc/teamcode/opmodes/MecanumTeleOp.java`
+and `MecanumAutoBasic.java`, backed by
+`subsystems/MecanumDrive.java` — a finished field-centric mecanum TeleOp and a
+basic encoder-and-IMU autonomous (drive, strafe, turn, park), no odometry or
+Pedro Pathing required. This is the drivetrain code a new team actually starts
+the season on; Guide 1 and Guide 2 explain the technique behind it in depth,
+and the exercises let you build it yourself once to understand it, but you
+don't have to reinvent it to compete.
+
+**Before it will drive correctly, fill in
+`TeamCode/.../util/DriveConstants.java`** — hardware names, your motor's
+encoder resolution, your wheel diameter, and which sides are reversed. Every
+value that's specific to a physical robot lives in that one file; nothing
+about a smaller or larger chassis requires touching `MecanumDrive.java` or
+either OpMode, only different numbers in `DriveConstants`. Verify wheel
+directions and the strafe correction on the real robot before trusting any
+autonomous distance — see the guide sections on tuning by measurement, not by
+guessing.
+
+`MecanumAutoBasic` dead-reckons off encoder ticks, so small errors accumulate
+across several moves — good for a short routine, not for a long multi-part
+path. That accuracy ceiling is exactly why Guide 2 exists: once you outgrow
+this, Pedro Pathing 3 is the upgrade.
+
 Each TODO explains *why*, not just what to type. Read that part — the guides
 and exercises are trying to make you someone who can debug a robot at 11pm
 before a competition, not someone who has a working file.
