@@ -3,7 +3,7 @@
 This is our team's robot code for the FTC **BIOBUZZ (2026–2027)** season.
 
 It's the official [FTC SDK](https://github.com/FIRST-Tech-Challenge/FtcRobotController)
-(version **11.2.1**) with a `TeamCode` folder where we write our own code. If
+(version **12.0**) with a `TeamCode` folder where we write our own code. If
 you've never done this before, start at the top and work down — this guide
 assumes you know nothing about FTC programming yet.
 
@@ -31,7 +31,7 @@ So the loop is: **write Java → build → send it to the robot → pick it on t
 
 | What | Why | Notes |
 |---|---|---|
-| [Android Studio](https://developer.android.com/studio) | Where you write and build the code | Must be **Ladybug (2024.2) or newer**. Older versions will not work. |
+| [Android Studio](https://developer.android.com/studio) | Where you write and build the code | Must be **Narwhal 3 Feature Drop or newer** — the FTC SDK v12.0 requirement. Older versions will not work. |
 | [Git](https://git-scm.com/downloads) | Downloads the code and shares your changes | |
 | [GitHub Desktop](https://desktop.github.com/) | Optional, but much easier than git commands | Recommended if you're new |
 

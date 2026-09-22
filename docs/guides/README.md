@@ -24,7 +24,7 @@ without it.
 | **7** | Pedro Pathing 3 setup and tuning | [Guide 2](02-odometry-pedro-pathing.md) §4–7 | Run the tuners on the robot | 2–3 sessions |
 | **8** | Poses, paths, a TeleOp that knows where it is | [Guide 2](02-odometry-pedro-pathing.md) §8–9 | `docs/templates/PedroTeleOp.java` | 1–2 sessions |
 | **9** | State-machine autonomous | [Guide 2](02-odometry-pedro-pathing.md) §10–11 | `docs/templates/PedroAuto.java` | 3+ sessions |
-| **10** | Callbacks, AprilTag relocalisation, real optimisation | [Guide 2](02-odometry-pedro-pathing.md) §12 | Build the auto you actually want | Rest of season |
+| **10** | Callbacks, AprilTag vision, real optimisation | [Guide 2](02-odometry-pedro-pathing.md) §12 | Build the auto you actually want | Rest of season |
 
 Stages 0–5 make you useful to the team. 6–9 make you a programmer the team
 depends on. Stage 10 is the rest of your FTC career.

@@ -6,7 +6,7 @@ One-time setup for every programmer on the team.
 
 | Tool | Notes |
 |---|---|
-| [Android Studio](https://developer.android.com/studio) | **Ladybug (2024.2) or newer** — the FTC SDK requires it |
+| [Android Studio](https://developer.android.com/studio) | **Narwhal 3 Feature Drop or newer** — the FTC SDK v12.0 requires it |
 | [Git](https://git-scm.com/downloads) | For cloning this repo |
 | [Node.js 18+](https://nodejs.org) | Needed by the `ftc` MCP server (`npx`) |
 
