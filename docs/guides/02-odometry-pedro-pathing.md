@@ -480,9 +480,13 @@ Once paths work reliably:
   waiting for the end. Overlapping driving and scoring is where the seconds are.
 - **Tune your Foresight config properly** and re-tune when the robot's weight
   changes. Most teams tune once and wonder why autonomous degrades.
-- **AprilTag relocalisation** — the SDK's `VisionPortal` and `AprilTagProcessor`
-  let you correct accumulated odometry drift from field tags. See the
-  `ConceptAprilTag*` samples in `FtcRobotController/.../samples/`.
+- **AprilTag vision** — the SDK's `VisionPortal` and `AprilTagProcessor` read
+  the field's tags. Worth knowing before you rely on it: BIOBUZZ's tags are
+  mounted on **moving** field elements, so — unlike past seasons — they are
+  *not* a valid reference for correcting odometry drift (per the SDK v12.0
+  release notes). They're still useful for aiming and detecting game-element
+  state, just not for "where am I on the field". See the `ConceptAprilTag*`
+  samples in `FtcRobotController/.../samples/`.
 - **Subsystem state machines** — give each mechanism its own states so the arm
   can move while the robot drives.
 - **Write the BIOBUZZ auto you actually want**, then work backwards. Read the
